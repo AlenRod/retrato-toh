@@ -5,8 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>EL RETRATO DE TOH FOTOGRAFÍA | Mérida, Yucatán</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600;700&family=Montserrat:wght@300;400&display=swap" rel="stylesheet">
-
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500&family=Raleway:wght@300;400&display=swap" rel="stylesheet">
   <style>
 
     * {
@@ -16,138 +15,127 @@
     }
 
     body {
-  font-family: 'Montserrat', sans-serif;
+      font-family: 'Raleway', sans-serif;
       background-color: #f0f2f5;
       color: #1e3a5f;
-    }
-
-    /* HEADER */
-    header {
+      min-height: 100vh;
       display: flex;
-      justify-content: space-between;
       align-items: center;
-      padding: 10px 20px;
-      background: white;
+      justify-content: center;
     }
 
-    header img {
-      height: 80px;
-    }
-
-    .hamburger {
-      font-size: 28px;
-      cursor: pointer;
-      color: #1e3a5f;
-    }
-
-    /* INICIO */
     .inicio {
       display: flex;
       align-items: center;
       justify-content: center;
-      gap: 60px;
-      padding: 80px 40px;
-      min-height: 90vh;
+      gap: 80px;
+      padding: 60px 40px;
+      width: 100%;
+      max-width: 1100px;
     }
 
-    .inicio img {
-      width: 650px;
+    .inicio-logo img {
+      width: 380px;
     }
 
     .inicio-logo {
-  border-right: 1px solid #c0c8d0;
-  padding-right: 60px;
-}
+      border-right: 1px solid #b0bec5;
+      padding-right: 80px;
+    }
 
     .inicio-texto {
-      max-width: 450px;
+      max-width: 420px;
       text-align: center;
     }
 
     .inicio-texto h1 {
-  font-size: 2.8rem;
-  font-weight: 600;
-  font-family: 'Cormorant Garamond', serif;
-  letter-spacing: 1px;
-      margin-bottom: 20px;
+      font-family: 'Playfair Display', serif;
+      font-size: 3rem;
+      font-weight: 400;
+      margin-bottom: 25px;
       color: #1e3a5f;
+      line-height: 1.2;
     }
 
     .inicio-texto p {
-      font-size: 1rem;
+      font-family: 'Raleway', sans-serif;
+      font-size: 0.95rem;
       color: #5a7a9f;
       margin-bottom: 15px;
-      line-height: 1.6;
+      line-height: 1.8;
+      font-weight: 300;
     }
 
     .btn {
       display: inline-block;
-      margin-top: 20px;
-      padding: 14px 30px;
+      margin-top: 30px;
+      padding: 16px 45px;
       background-color: #3d5a7a;
       color: white;
-      border-radius: 30px;
+      border-radius: 8px;
       text-decoration: none;
-      font-size: 0.95rem;
-      letter-spacing: 0.5px;
+      font-size: 0.85rem;
+      font-family: 'Raleway', sans-serif;
+      font-weight: 400;
+      letter-spacing: 1px;
     }
 
     .redes {
       display: flex;
       justify-content: center;
-      gap: 15px;
+      gap: 12px;
       margin-top: 25px;
     }
 
     .redes a {
-      width: 40px;
-      height: 40px;
-      background: #e8eaed;
+      width: 42px;
+      height: 42px;
+      background: #e2e5ea;
       border-radius: 50%;
       display: flex;
       align-items: center;
       justify-content: center;
       text-decoration: none;
       color: #1e3a5f;
-      font-size: 16px;
+      font-size: 15px;
     }
+
+    /* CELULAR */
     @media (max-width: 768px) {
-  .inicio {
-    flex-direction: column;
-    padding: 40px 20px;
-    gap: 30px;
-  }
+      .inicio {
+        flex-direction: column;
+        gap: 30px;
+        padding: 50px 25px;
+      }
 
-  .inicio-logo {
-    border-right: none;
-    border-bottom: 1px solid #c0c8d0;
-    padding-right: 0;
-    padding-bottom: 30px;
-  }
+      .inicio-logo {
+        border-right: none;
+        border-bottom: 1px solid #b0bec5;
+        padding-right: 0;
+        padding-bottom: 30px;
+      }
 
-  .inicio img {
-    width: 280px;
-  }
+      .inicio-logo img {
+        width: 260px;
+      }
 
-  .inicio-texto h1 {
-    font-size: 2rem;
-  }
+      .inicio-texto h1 {
+        font-size: 2.2rem;
+      }
 
-  .inicio-texto {
-    max-width: 100%;
-  }
-}
+      .inicio-texto {
+        max-width: 100%;
+      }
+    }
 
   </style>
 </head>
 <body>
 
-
-  <!-- INICIO -->
   <section class="inicio">
     <div class="inicio-logo">
-  <img src="logo.png" alt="Logo grande">
-</div>
+      <img src="Logo.png" alt="El Retrato de Toh">
+    </div>
     <div class="inicio-texto">
       <h1>El Retrato de Toh</h1>
       <p>Retratos creados con intención, luz y presencia.<br>
@@ -159,10 +147,9 @@
         <a href="#"><i class="fab fa-instagram"></i></a>
         <a href="#"><i class="fas fa-envelope"></i></a>
         <a href="#"><i class="fab fa-whatsapp"></i></a>
-      </div>      
+      </div>
     </div>
   </section>
 
 </body>
 </html>
-
